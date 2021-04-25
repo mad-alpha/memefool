@@ -1,0 +1,5 @@
+appConfig:
+  dbDriver: com.mysql.jdbc.Driver
+  dbUrl: jdbc:mysql://${APP_MYSQL_HOST:-localhost}:${APP_MYSQL_PORT:-3306}/memefool?useSSL=false
+  dbUser: ${APP_MYSQL_USERNAME:-nobroker}
+  dbPwd: ${APP_MYSQL_PASSWORD:-nobroker}
